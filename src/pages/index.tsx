@@ -1,5 +1,5 @@
 import Login from './Login';
-import Meals from './meals';
+import Meals from './Meals';
 
 export {
   Login,
