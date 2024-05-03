@@ -16,26 +16,42 @@ import goatType from './goat-type.svg';
 import breakfastType from './breakfast-icon.svg';
 import chickenType from './chicken-type.svg';
 import dessertType from './dessert-icon.svg';
+import dessetIcon from './dessert-icon-2.svg';
 import sharedButton from './share-button.svg';
+import allDrinkType from './all-drink-type.svg';
+import ordinaryDrinkType from './ordinary-drink-type.svg';
+import cocktailDrinkType from './cocktail-drink-type.svg';
+import shakeDrinkType from './shake-drink-type.svg';
+import otherDrinkType from './other-drink-type.svg';
+import cocoaDrinkType from './cocoa-drink-type.svg';
+import favoriteButton from './favorite-button.svg';
 
 export {
+  allDrinkType,
   allFilter,
   allType,
   beefType,
   breakfastType,
   chickenType,
+  cocoaDrinkType,
+  cocktailDrinkType,
+  dessetIcon,
   dessertType,
   drinkFilter,
   drinkIcon,
   doneIcon,
+  favoriteButton,
   favoriteIcon,
   foodFilter,
   foodIcon,
   goatType,
   mainLogo,
   miniLogo,
+  ordinaryDrinkType,
+  otherDrinkType,
   profileIcon,
   profileIconWhite,
+  shakeDrinkType,
   sharedButton,
   searchIcon,
 };
