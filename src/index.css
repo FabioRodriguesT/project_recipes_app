@@ -4,7 +4,7 @@
 body {
   display: flex;
   justify-content: center;
-  min-height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,13 +12,13 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 :root {
   --primary-bg-color: #740200;
   --secondary-bg-color: #E90101;
-  --tertiary-bg-color: #E70001;
+  --tertiary-bg-color: #E70001;  
 }
 
 

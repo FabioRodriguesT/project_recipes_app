@@ -1,4 +1,6 @@
-import { profileIcon, searchIcon, miniLogo, doneIcon } from '../../assets/images';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { profileIcon, searchIcon, miniLogo } from '../../assets/images';
 import {
   Container,
   Title,
@@ -9,13 +11,26 @@ import {
   SearchImg,
   ProfileImg,
 } from './styles';
+import SearchFilter from '../SearchBar';
 
-type HeaderProps = {
+export type HeaderProps = {
   title: string;
-  icon: string
+  icon: string;
+  searchVisible?: boolean;
 };
 
-function Header({ title, icon }: HeaderProps) {
+function Header({ title, icon, searchVisible = true }: HeaderProps) {
+  const [showSearchFilter, setShowSearchFilter] = useState(false);
+  const navigate = useNavigate();
+
+  const handleNavigateProfile = () => {
+    navigate('/profile');
+  };
+
+  const handleShowSearchFilter = () => {
+    setShowSearchFilter(!showSearchFilter);
+  };
+
   return (
     <>
       <Container>
@@ -25,18 +40,25 @@ function Header({ title, icon }: HeaderProps) {
           <Caption>App</Caption>
         </ContainerTitle>
         <ContainerImg>
-          <SearchImg src={ searchIcon } alt="Search Icon" data-testid="search-top-btn" />
+          {searchVisible && (<SearchImg
+            src={ searchIcon }
+            alt="Search Icon"
+            data-testid="search-top-btn"
+            onClick={ handleShowSearchFilter }
+          />)}
           <ProfileImg
+            data-testid="profile-top-btn"
             src={ profileIcon }
             alt="Profile Icon"
-            data-testid="profile-top-btn"
+            onClick={ handleNavigateProfile }
           />
         </ContainerImg>
       </Container>
       <ContainerPage>
         <img src={ icon } alt="Done-Icon" />
-        <h1>{title}</h1>
+        <h1 data-testid="page-title">{title}</h1>
       </ContainerPage>
+      {showSearchFilter && <SearchFilter />}
     </>
   );
 }

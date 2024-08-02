@@ -1,7 +1,7 @@
-import profileIcon from './profileIcon.svg';
-import searchIcon from './searchIcon.svg';
+import profileIcon2 from './profileIcon.svg';
+import searchIcon2 from './searchIcon.svg';
 
 export {
-  profileIcon,
-  searchIcon,
+  profileIcon2,
+  searchIcon2,
 };

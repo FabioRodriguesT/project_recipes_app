@@ -7,12 +7,11 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 361px;
+  width: 360px;
   height: 46px;
   bottom: 0;
-  position: absolute;
-  margin-bottom: 0;
-  box-sizing: border-box;
+  position: fixed;
+  box-sizing: border-box;  
 `;
 
 export const FoodImg = styled.img`

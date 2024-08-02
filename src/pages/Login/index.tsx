@@ -58,7 +58,7 @@ function Login() {
         <input
           type="text"
           data-testid="email-input"
-          placeholder="E-mail"
+          placeholder="Email"
           name="email"
           onChange={ handleChangeInput }
           value={ formData.email }

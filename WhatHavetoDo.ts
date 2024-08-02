@@ -1,0 +1,1 @@
+// Fazer passar o coverage do searchbar e passa os teste até o requisito 18

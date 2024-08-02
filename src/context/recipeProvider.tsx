@@ -1,16 +1,15 @@
 import { useEffect, useState } from 'react';
 import recipeContext from './recipeContext';
-import { TypeContextProps, FavType, RecomType } from '../types';
+import { TypeContextProps, FavType, RecommendedType } from '../types';
 
 function RecipeProvider({ children }: TypeContextProps) {
   const [favoriteStorage, setFavoriteStorage] = useState<FavType[]>([]);
-  const [data, setData] = useState<RecomType>({ drinks: [], meals: [] });
+  const [data, setData] = useState<RecommendedType>({ drinks: [], meals: [] });
 
   useEffect(() => {
     setFavoriteStorage(
       JSON.parse(localStorage.getItem('favoriteRecipes') as string) || [],
     );
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const values = {
