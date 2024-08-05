@@ -1,4 +1,5 @@
 import { profileIcon } from '../../assets/images';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
 function Profile() {
@@ -9,6 +10,7 @@ function Profile() {
         icon={ profileIcon }
         searchVisible={ false }
       />
+      <Footer />
     </div>
   );
 }

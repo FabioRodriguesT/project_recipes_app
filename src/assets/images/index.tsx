@@ -2,8 +2,8 @@ import mainLogo from './main-logo.svg';
 import miniLogo from './mini-logo.svg';
 import profileIcon from './profile-icon.svg';
 import searchIcon from './search-icon.svg';
-import drinkIcon from './drink-icon.svg';
-import foodIcon from './food-Icon.svg';
+import drinkIcon from './drinkIcon.svg';
+import mealIcon from './mealIcon.svg';
 import doneIcon from './done.svg';
 import favoriteIcon from './favorites.svg';
 import profileIconWhite from './profile.svg';
@@ -43,9 +43,9 @@ export {
   favoriteButton,
   favoriteIcon,
   foodFilter,
-  foodIcon,
   goatType,
   mainLogo,
+  mealIcon,
   miniLogo,
   ordinaryDrinkType,
   otherDrinkType,

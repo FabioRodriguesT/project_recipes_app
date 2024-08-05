@@ -6,6 +6,7 @@ import { RecipeType, CategoryType } from '../../types';
 import { Container, ContainerRecipes } from './styles';
 import recipeContext from '../../context/recipeContext';
 import searchAPI from '../../services/api';
+import Footer from '../../components/Footer';
 
 function Drinks() {
   const { data, setData } = useContext(recipeContext);
@@ -45,6 +46,7 @@ function Drinks() {
           ),
         )}
       </ContainerRecipes>
+      <Footer />
     </Container>
   );
 }
