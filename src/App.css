@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 720px;
+}
