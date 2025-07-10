@@ -1,43 +1,10 @@
 Descrição:
 
-Recipes API é uma API projetada para gerenciar postagens e categorias de blog, permitindo que os usuários criem, leiam, atualizem e excluam postagens de blog. Para a criação das tabelas do banco de dados, utilizamos a técnica de Mapeamento Objeto-Relacional (ORM) através do pacote Sequelize do Node.js e a autenticação do usuário por meio de JSON Web Tokens (JWT). Também utilizamos a arquitetura de software MSC (Model-Service-Controller). Este projeto demonstra uma sólida compreensão do design de API RESTful e do gerenciamento de banco de dados.
-Sumário
+Recipes App é um app de receitas, utilizando o que há de mais moderno dentro do ecossistema React: Hooks e Context API!
+O projeto consiste em desenvolver um sistema que permite visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.
+O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.
 
-    Diagrama de Entidade e Relacionamento
-    Sobre o projeto
-    Instalação
-    Utilizando a API
-    Instruções de utilização do projeto
-    Dependências
-    Licença
-
-Diagrama de Entidade e Relacionamento:
-
-Para orientar a construção das tabelas através do ORM, utilize o DER a seguir:
-
-Diagrama de Entidade do Blogs-API
-Sobre o projeto:
-O que foi desenvolvido:
-
-    Endpoints conectados ao banco de dados, seguindo os princípios do REST.
-
-    Criação de um post, necessitando da relação entre usuário e login, sendo relação (1:N) entre user e blog_posts.
-
-    Separação dos posts por categorias, com a relação (N:N) de blog_posts para categories e de categories para blog_posts.
-
-Arquivos ou Pastas que foram desenvolvidos:
-
-    Controller
-    Middlewares
-    Migrations
-    Services
-    Models
-    Utils
-    App.js
-
-❗ATENÇÃO!❗: Todos os arquivos que não foram mencionados, foram criados pela Trybe! ✅
 Instalação:
-
 Para a configuração do projeto, siga os seguintes passos:
 
     Clone o Repositório:
