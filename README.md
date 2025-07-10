@@ -4,6 +4,90 @@ Recipes App é um app de receitas, utilizando o que há de mais moderno dentro d
 O projeto consiste em desenvolver um sistema que permite visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.
 O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.
 
+## 📡 API Consumida
+
+Este projeto consome duas APIs externas para obter dados de refeições e coquetéis:
+
+- [TheMealDB](https://www.themealdb.com/api.php)
+- [TheCocktailDB](https://www.thecocktaildb.com/api.php)
+
+### 🔗 Endpoints utilizados
+
+#### TheMealDB
+
+- `https://www.themealdb.com/api/json/v1/1/search.php?s={nome}`: Busca por refeições pelo nome.
+- `https://www.themealdb.com/api/json/v1/1/lookup.php?i={id}`: Obtém detalhes de uma refeição pelo ID.:contentReference[oaicite:11]{index=11}
+
+#### TheCocktailDB
+
+- `https://www.thecocktaildb.com/api/json/v1/1/search.php?s={nome}`: Busca por coquetéis pelo nome.
+- `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}`: Obtém detalhes de um coquetel pelo ID.:contentReference[oaicite:16]{index=16}
+
+### 🛠️ Como utilizar
+
+1. Substitua `{nome}` ou `{id}` pelos parâmetros desejados.
+2. Faça uma requisição GET para o endpoint correspondente.
+3. Utilize os dados retornados para exibir as informações na interface do usuário.:contentReference[oaicite:23]{index=23}
+
+### ⚠️ Observações
+
+- As respostas das APIs são em formato JSON.
+- Não é necessário autenticação para utilizar os endpoints mencionados.
+- Considere implementar tratamento de erros para lidar com possíveis falhas nas requisições.:contentReference[oaicite:30]{index=30}
+
+Para mais detalhes sobre os endpoints e parâmetros disponíveis, consulte a documentação oficial de cada API.:contentReference[oaicite:33]{index=33}
+
+---
+
+Esta abordagem fornece informações claras sobre os endpoints consumidos, facilitando a compreensão e utilização do projeto por outros desenvolvedores.:contentReference[oaicite:36]{index=36}
+::contentReference[oaicite:37]{index=37}
+
+Sobre o projeto:
+
+O que foi desenvolvido:
+
+Foi desenvolvido, um projeto que simula um aplicatio de receitas, onde é possivel visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks.
+
+O layout do app foi feito de acordo com o link do figma abaixo.
+Figma: https://www.figma.com/design/nfmbY2U28bs1GnW3wysCzA/-Projeto--Frontend--Recipes-App---Personal-Project?node-id=0-1&p=f&t=BCmGh5WMZNysf0oM-0
+No app foram criadas 6 telas, são elas: Login, Receitas Realizadas, Receitas Favoritadas, Perfil, mais 4 telas, que variam entre dois tipos: Comidas e Bebida, sendo elas:
+Lista de Todas as Receitas(Comidas), Lista de Todas as Receitas(Bebida), Detalhes da Receita Especificada por ID(Comida),
+Detalhes da Receita Especificada por ID(Bebida), Receita em Andamento por ID(Comida), Receita em Andamento por ID(Bebida)
+
+Desenvolvi um aplicativo de receitas que permite ao usuário visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o preparo de receitas e drinks.
+
+O layout foi inspirado no protótipo do Figma: Figma - Projeto Frontend Recipes App.
+
+O aplicativo conta com 6 telas principais:
+
+    Login
+
+    Receitas Realizadas
+
+    Receitas Favoritas
+
+    Perfil
+
+    Lista de Todas as Receitas (Comidas)
+
+    Lista de Todas as Receitas (Bebidas)
+
+    Detalhes da Receita por ID (Comida)
+
+    Detalhes da Receita por ID (Bebida)
+
+    Receita em Andamento por ID (Comida)
+
+    Receita em Andamento por ID (Bebida)
+    GitHub+2GitHub+2FeaSeo+2
+    pt.wikipedia.org+2EJCM+2pt.wikipedia.org+2
+    Rex Top Leads+4pt.wikipedia.org+4EJCM+4
+
+As telas de "Receita em Andamento" permitem ao usuário acompanhar o progresso da receita, marcando os ingredientes conforme são preparados. O estado é mantido mesmo após atualizar a página, utilizando o localStorage com a chave inProgressRecipes .
+GitHub
+
+O aplicativo consome as APIs públicas do TheMealDB e TheCocktailDB para obter dados de receitas e drinks.
+
 Instalação:
 Para a configuração do projeto, siga os seguintes passos:
 
