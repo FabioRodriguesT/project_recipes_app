@@ -14,7 +14,6 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 - [Dependências](#-dependências)
 - [Licença](#-licença)
 
-
 ## 🧩 API Consumida
 
 Este projeto consome duas APIs externas para obter dados de refeições e coquetéis:
@@ -64,7 +63,7 @@ Esta abordagem fornece informações claras sobre os endpoints consumidos, facil
 
 ### ⚙️ O que foi desenvolvido:
 
-Foi desenvolvido, um projeto que simula um aplicatio de receitas, onde é possivel visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas de comidas e bebidas.
+Foi desenvolvido, um projeto que simula um aplicativo de receitas, onde é possivel visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas de comidas e bebidas.
 
 O layout do app foi feito de acordo com o link do figma abaixo.
 
