@@ -61,9 +61,9 @@ Figma: https://www.figma.com/design/nfmbY2U28bs1GnW3wysCzA/-Projeto--Frontend--R
 
 No app foram criadas 6 telas, são elas: 
 
-|                 Login                   | Done Recipes | Cabeçalho 3 |
-|:---------------------------------------:|:------------:|------------:|
-| <img src="src/assets/image/LoginPage.PNG" alt="Login" style="width:50%; height:50%;">|![DoneRecipes](src/assets/image/DoneRecipesPage.PNG)|             |
+| Login | Done Recipes | Favorite Recipes |
+|:-----:|:------------:|------------:|
+| <img src="src/assets/image/LoginPage.PNG" alt="Login" style="width:180px"> | <img src="src/assets/image/DoneRecipesPage.PNG" alt="DoneRecipes" style="width:180px"> | <img src="src/assets/image/FavoriteRecipesPage.PNG" alt="FavoriteRecipes" style="width:180px"> |
 
 
 
