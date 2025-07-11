@@ -116,70 +116,29 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 | `/meals/{id}/in-progress`    | Exibe o progresso de uma receita de comida pelo **ID**      |
 | `/drinks/{id}/in-progress`   | Exibe o progresso de uma receita de bebida pelo **ID**      |
 
+Dependências
+Dependencias:
 
+    camelcase
+    http-status-codes
+    jsonwebtoken
+    puppeteer
+    uuid
 
-    Rota 	Funcionalidade 	Tipo da Requisição
-    /login 	Login na API com geração de token 	POST
-    /user 	Cria um novo usuário 	POST
-    /categories 	Cria uma nova categoria de Post 	POST
-    /categories 	Lista todas as categorias 	GET
-    /post 	Lista todos os posts 	GET
-    /post/:id 	Lista o post com o id específico 	GET
-    /post 	Cria um novo post 	POST
-    /post/:id 	Edita um post com o id específico 	PUT
-    /post/:id 	Exclui um post com o id específico 	DELETE
-    /user 	Lista todos os usuários 	GET
-    /user/:id 	Lista um usuário com id específico 	GET
+Depêndencias de Desenvolvimento:
 
-Utilização:
-
-Utilize algum aplicativo ou extensão do VSCode para realizar as requisições.
-
-Exemplo: ThunderClient, Insomnia.
-Dependências:
-
-Este projeto utilizou os seguintes pacotes:
-Dependências:
-
-    express: Web framework for Node.js.
-    express-async-errors: Middleware to handle async errors.
-    joi: Data validation library.
-    jsonwebtoken: For handling JWT authentication.
-    mysql2: MySQL client for Node.js.
-    sequelize: ORM for managing SQL databases.
-
-Dependências de desenvolvimento:
-
-    chai: Assertion library.
-    chai-http: HTTP integration testing for Chai.
-    change-case: Utilities for changing case of strings.
-    eslint-config-trybe-backend: ESLint configuration.
-    frisby: API testing framework.
-    jest: JavaScript testing framework.
-    mocha: Test framework.
-    nodemon: Auto-restart for Node.js applications.
-    nyc: Code coverage tool.
-    sequelize-cli: CLI for Sequelize.
-    sinon: Standalone test spies, stubs, and mocks.
-    supertest: Testing HTTP servers.
-    wait-on: Wait for a resource to be available.
+    jest-dom
+    react
+    user-event
+    axios
+    jest
+    mocha
+    mysql2
+    nyc
+    sequelize
+    sequelize-cli
 
 Licença:
 
 Este projeto é licenciado sob a Licença MIT. Boa codificação!
-
-
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
