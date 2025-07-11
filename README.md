@@ -61,19 +61,9 @@ Figma: https://www.figma.com/design/nfmbY2U28bs1GnW3wysCzA/-Projeto--Frontend--R
 
 No app foram criadas 6 telas, são elas: 
 
-<style>
-  table {
-    border-collapse: collapse;
-    border: none;
-  }
-  th, td {
-    border: none;
-  }
-</style>
-
-|                 Login                   | Cabeçalho 2 | Cabeçalho 3 |
-|:---------------------------------------:|:-----------:|------------:|
-| ![Login](src/assets/image/LoginPage.PNG)|             |             |
+|                 Login                   | Done Recipes | Cabeçalho 3 |
+|:---------------------------------------:|:------------:|------------:|
+| ![Login](src/assets/image/LoginPage.PNG)|![DoneRecipes](src/assets/image/DoneRecipesPage.PNG)            |             |
 
 
 
