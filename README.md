@@ -26,7 +26,7 @@ Este projeto consome duas APIs externas para obter dados de refeições e coquet
 
 - `https://www.thecocktaildb.com/api/json/v1/1/search.php?s={nome}`: Busca por coquetéis pelo nome.
 - `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i={ingredient}`: Filtre os coquetéis por ingredientes.
-- `https://www.thecocktaildb.com/api/json/v1/1/search.php?f={firstLetter}`:Filtre os coquetéis pela primeira letra.
+- `https://www.thecocktaildb.com/api/json/v1/1/search.php?f={firstLetter}`: Filtre os coquetéis pela primeira letra.
 - `https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list`: Busca todas as categorias de coquetéis.
 - `https://www.thecocktaildb.com/api/json/v1/1/filter.php?c={category}`: Filtre os coquetéis pela categoria.
 - `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}`: Obtém detalhes de um coquetel pelo ID.
