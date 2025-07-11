@@ -132,30 +132,26 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 
 ### Depêndencias de Desenvolvimento:
 
-- eslint/js
-- testing-library/dom
-- testing-library/jest-dom
-- testing-library/react
-- testing-library/user-event
-- types/jest
-- types/react-dom
-- types/react-router-dom
-- vitejs/plugin-react
-- vitejs/plugin-react-swc
-- vitest/coverage-v8
-- cross-env
-- cypress
-- cypress-multi-reporters
 - eslint
 - eslint-plugin-react-hooks
-- jest
+- cross-env
+- @testing-library/dom
+- @testing-library/jest-dom
+- @testing-library/react
+- @testing-library/user-event
+- @types/jest
+- @types/react-dom
+- @types/react-router-dom
+- typescript
+- vite
+- @vitejs/plugin-react    # ou @vitejs/plugin-react-swc
+- vitest
+- vitest-coverage-v8
+- cypress
+- cypress-multi-reporters
 - jsdom
 - stylelint
 - stylelint-order
-- typescript
-- vite
-- vite-plugin-svgr
-- vitest
 
 Licença:
 
