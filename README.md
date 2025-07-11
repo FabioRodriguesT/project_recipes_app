@@ -68,41 +68,7 @@ No app foram criadas 6 telas, são elas:
 | <img src="src/assets/image/DrinksPage.PNG" alt="Drinks" style="width:180px"> | <img src="src/assets/image/FoodDetailsPage.PNG" alt="MealsDetails" style="width:180px"> | <img src="src/assets/image/DrinksDetailsPage.PNG" alt="DrinksDetails" style="width:180px"> | <img src="src/assets/image/MealsRecipeInProgressPage.PNG" alt="MealsRecipeInProgress" style="width:180px"> | <img src="src/assets/image/DrinksRecipeInProgressPage.PNG" alt="DrinksInProgress" style="width:180px"> |
 
 
-Login, Receitas Realizadas, Receitas Favoritadas, Perfil, mais 4 telas, que variam entre dois tipos: Comidas e Bebida, sendo elas:
-Lista de Todas as Receitas(Comidas), Lista de Todas as Receitas(Bebida), Detalhes da Receita Especificada por ID(Comida),
-Detalhes da Receita Especificada por ID(Bebida), Receita em Andamento por ID(Comida), Receita em Andamento por ID(Bebida)
-
-Desenvolvi um aplicativo de receitas que permite ao usuário visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o preparo de receitas e drinks.
-
-O layout foi inspirado no protótipo do Figma: Figma - Projeto Frontend Recipes App.
-
-O aplicativo conta com 6 telas principais:
-
-    Login
-
-    Receitas Realizadas
-
-    Receitas Favoritas
-
-    Perfil
-
-    Lista de Todas as Receitas (Comidas)
-
-    Lista de Todas as Receitas (Bebidas)
-
-    Detalhes da Receita por ID (Comida)
-
-    Detalhes da Receita por ID (Bebida)
-
-    Receita em Andamento por ID (Comida)
-
-    Receita em Andamento por ID (Bebida)
-    GitHub+2GitHub+2FeaSeo+2
-    pt.wikipedia.org+2EJCM+2pt.wikipedia.org+2
-    Rex Top Leads+4pt.wikipedia.org+4EJCM+4
-
-As telas de "Receita em Andamento" permitem ao usuário acompanhar o progresso da receita, marcando os ingredientes conforme são preparados. O estado é mantido mesmo após atualizar a página, utilizando o localStorage com a chave inProgressRecipes .
-GitHub
+As telas de "Meals In Progress e Drinks In Progress" permitem ao usuário acompanhar o progresso da receita, marcando os ingredientes conforme são preparados. O estado é mantido mesmo após atualizar a página, utilizando o localStorage com a chave inProgressRecipes .
 
 O aplicativo consome as APIs públicas do TheMealDB e TheCocktailDB para obter dados de receitas e drinks.
 
