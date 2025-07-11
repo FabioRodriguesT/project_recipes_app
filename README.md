@@ -101,8 +101,22 @@ npm run start
 
 Você pode então acessar a API em http://localhost:3000 (ou utilizando sua porta específica).
 
-Assim, você está authenticado, permitindo a realização de requisições para todos os endpoints!
-Rotas disponíveis:
+### Rotas disponíveis:
+
+| Rota                         | Funcionalidade                                               |
+|:----------------------------:|:-----------------------------------------------------------:|
+| `/`                          | Exibe a tela de login do aplicativo                         |
+| `/meals`                     | Exibe todas as receitas de comidas                          |
+| `/drinks`                    | Exibe todas as receitas de bebidas                          |
+| `/profile`                   | Exibe o perfil do usuário                                   |
+| `/done-recipes`              | Exibe todas as receitas já realizadas                       |
+| `/favorite-recipes`          | Exibe todas as receitas favoritas                           |
+| `/meals/{id}`                | Exibe os detalhes de uma receita de comida pelo **ID**      |
+| `/drinks/{id}`               | Exibe os detalhes de uma receita de bebida pelo **ID**      |
+| `/meals/{id}/in-progress`    | Exibe o progresso de uma receita de comida pelo **ID**      |
+| `/drinks/{id}/in-progress`   | Exibe o progresso de uma receita de bebida pelo **ID**      |
+
+
 
     Rota 	Funcionalidade 	Tipo da Requisição
     /login 	Login na API com geração de token 	POST
