@@ -116,9 +116,8 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 | `/meals/{id}/in-progress`    | Exibe o progresso de uma receita de comida pelo **ID**      |
 | `/drinks/{id}/in-progress`   | Exibe o progresso de uma receita de bebida pelo **ID**      |
 
-## Teste
+## 🧪 Testes
 
-🧪 Testes
 ✅ Cobertura de Código
 
 Os testes deste projeto alcançam 100% de cobertura de código, garantindo que todas as funcionalidades estejam devidamente validadas. Utilizamos o Vitest, um framework de testes rápido e leve, integrado ao Vite.
