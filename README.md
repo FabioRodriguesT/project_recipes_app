@@ -148,8 +148,6 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 - cypress-multi-reporters
 - eslint
 - eslint-plugin-react-hooks
-- eslint-plugin-react-refresh
-- globals
 - jest
 - jsdom
 - stylelint
