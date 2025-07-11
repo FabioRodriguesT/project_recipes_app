@@ -72,13 +72,13 @@ As telas de "Meals In Progress e Drinks In Progress" permitem ao usuário acompa
 
 O aplicativo consome as APIs públicas do TheMealDB e TheCocktailDB para obter dados de receitas e drinks.
 
-Instalação:
+## Instalação:
 Para a configuração do projeto, siga os seguintes passos:
 
     Clone o Repositório:
 
-     git clone git@github.com:FabioRodriguesT/Projeto_Blogs_API.git
-     cd blogs-api
+     git clone git@github.com:FabioRodriguesT/project_recipes_app_ts.git
+     cd project_recipes_app_ts
 
     Instale as dependências:
 
