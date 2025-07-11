@@ -6,12 +6,12 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 
 ## ✒️ Sumário
 
-- [API Consumida](#-Api-Consumida)
-- [Sobre o projeto](#-Sobre-o-projeto)
-- [Instalação](#-Instalação)
-- [Utilizando a API](#-Utilizando-a-API)
+- [API Consumida](#-api-consumida)
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Instalação](#-instalação)
+- [Utilizando a API](#-utilizando-a-api)
 - [Rotas disponíveis](#-rotas-disponíveis)
-- [Dependências](#-Dependências)
+- [Dependências](#-dependências)
 - [Licença](#-licença)
 
 
