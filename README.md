@@ -88,14 +88,16 @@ Instale as dependências:
 npm install
 ```
 
-Utilizando a API:
+### Utilizando a API:
 
 Você pode executar a API utilizando npm.
 Utilizando npm
 
 Para executar a API, use o seguinte comando:
 
+```bash
 npm run start
+```
 
 Você pode então acessar a API em http://localhost:3000 (ou utilizando sua porta específica).
 
