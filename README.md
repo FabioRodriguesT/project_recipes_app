@@ -126,15 +126,17 @@ Os testes deste projeto alcançam 100% de cobertura de código, garantindo que t
 
 Para rodar os testes localmente, execute o seguinte comando:
 
+```bash
 npm run test
+```
 
 Para gerar um relatório de cobertura em tempo real, utilize:
-imasters.com.br+3Medium+3studywithgpt.com+3
 
+```bash
 npm run coverage
+```
 
 Isso criará um relatório detalhado em HTML, que pode ser visualizado no navegador.
-devtrail.com.br
 
 ## Dependências
 
