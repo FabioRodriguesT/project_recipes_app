@@ -118,11 +118,11 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 
 ## 🧪 Testes
 
-✅ Cobertura de Código
+### ✅ Cobertura de Código
 
 Os testes deste projeto alcançam 100% de cobertura de código, garantindo que todas as funcionalidades estejam devidamente validadas. Utilizamos o Vitest, um framework de testes rápido e leve, integrado ao Vite.
-studywithgpt.com
-🚀 Executando os Testes
+
+### 🚀 Executando os Testes
 
 Para rodar os testes localmente, execute o seguinte comando:
 
