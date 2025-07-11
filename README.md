@@ -63,7 +63,7 @@ No app foram criadas 6 telas, são elas:
 
 |                 Login                   | Done Recipes | Cabeçalho 3 |
 |:---------------------------------------:|:------------:|------------:|
-| ![Login](src/assets/image/LoginPage.PNG)|![DoneRecipes](src/assets/image/DoneRecipesPage.PNG)            |             |
+| <img src="src/assets/image/LoginPage.PNG" alt="Login" style="width:50%; height:50%;">|![DoneRecipes](src/assets/image/DoneRecipesPage.PNG)|             |
 
 
 
