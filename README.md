@@ -173,7 +173,6 @@ Isso criará um relatório detalhado em HTML, que pode ser visualizado no navega
 - stylelint
 - stylelint-order
 
-Licença:
+## Licença:
 
 Este projeto é licenciado sob a Licença MIT. Boa codificação!
-
