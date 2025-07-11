@@ -6,6 +6,15 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 
 ## ✒️ Sumário
 
+- [API Consumida](#Api-Consumida)
+- [Sobre o projeto](#Sobre-o-projeto)
+- [Instalação](#Instalação)
+- [Utilizando a API](#Utilizando-a-API)
+- [Rotas disponíveis](#Rotas-disponíveis)
+- [Dependências](#Dependências)
+- [Licença](#Licença)
+
+
 ## 🧩 API Consumida
 
 Este projeto consome duas APIs externas para obter dados de refeições e coquetéis:
