@@ -11,7 +11,7 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 - [Instalação](#Instalação)
 - [Utilizando a API](#Utilizando-a-API)
 - [Rotas disponíveis](#Rotas-disponíveis)
-- [Dependências](#Dependências)
+- [Dependências](#-Dependências)
 - [Licença](#-licença)
 
 
