@@ -31,24 +31,23 @@ Este projeto consome duas APIs externas para obter dados de refeições e coquet
 - `https://www.thecocktaildb.com/api/json/v1/1/filter.php?c={category}`: Filtre os coquetéis pela categoria.
 - `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}`: Obtém detalhes de um coquetel pelo ID.
 
-### 🛠️ Como utilizar
+### Como utilizar
 
 1. Substitua `{nome}`, `{ingredient}`, `{firstLetter}`, `{category}` ou `{id}` pelos parâmetros desejados.
 2. Faça uma requisição GET para o endpoint correspondente.
-3. Utilize os dados retornados para exibir as informações na interface do usuário.:contentReference[oaicite:23]{index=23}
+3. Utilize os dados retornados para exibir as informações na interface do usuário.
 
-### ⚠️ Observações
+### Observações
 
 - As respostas das APIs são em formato JSON.
 - Não é necessário autenticação para utilizar os endpoints mencionados.
-- Considere implementar tratamento de erros para lidar com possíveis falhas nas requisições.:contentReference[oaicite:30]{index=30}
+- Considere implementar tratamento de erros para lidar com possíveis falhas nas requisições.
 
-Para mais detalhes sobre os endpoints e parâmetros disponíveis, consulte a documentação oficial de cada API.:contentReference[oaicite:33]{index=33}
+Para mais detalhes sobre os endpoints e parâmetros disponíveis, consulte a documentação oficial de cada API.
 
 ---
 
-Esta abordagem fornece informações claras sobre os endpoints consumidos, facilitando a compreensão e utilização do projeto por outros desenvolvedores.:contentReference[oaicite:36]{index=36}
-::contentReference[oaicite:37]{index=37}
+Esta abordagem fornece informações claras sobre os endpoints consumidos, facilitando a compreensão e utilização do projeto por outros desenvolvedores.
 
 Sobre o projeto:
 
