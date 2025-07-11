@@ -4,16 +4,16 @@
 O projeto consiste em desenvolver um sistema que permite visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.
 O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.
 
-## API Consumida
+## 🧠 API Consumida
 
 Este projeto consome duas APIs externas para obter dados de refeições e coquetéis:
 
 - [TheMealDB](https://www.themealdb.com/api.php)
 - [TheCocktailDB](https://www.thecocktaildb.com/api.php)
 
-### Endpoints utilizados
+### 🍽️ Endpoints utilizados
 
-#### TheMealDB
+#### 🥘 TheMealDB
 
 - `https://www.themealdb.com/api/json/v1/1/search.php?s={nome}`: Busca por refeições pelo nome.
 - `https://www.themealdb.com/api/json/v1/1/filter.php?i={ingredient}`: Filtre as refeições por ingredientes.
@@ -22,7 +22,7 @@ Este projeto consome duas APIs externas para obter dados de refeições e coquet
 - `https://www.themealdb.com/api/json/v1/1/filter.php?c={category}`: Filtre as refeições pela categoria. 
 - `https://www.themealdb.com/api/json/v1/1/lookup.php?i={id}`: Obtém detalhes de uma refeição pelo ID.
 
-#### TheCocktailDB
+#### 🍹 TheCocktailDB
 
 - `https://www.thecocktaildb.com/api/json/v1/1/search.php?s={nome}`: Busca por coquetéis pelo nome.
 - `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i={ingredient}`: Filtre os coquetéis por ingredientes.
