@@ -75,14 +75,18 @@ O aplicativo consome as APIs públicas do TheMealDB e TheCocktailDB para obter d
 ## Instalação:
 Para a configuração do projeto, siga os seguintes passos:
 
-    Clone o Repositório:
+Clone o Repositório:
 
-     git clone git@github.com:FabioRodriguesT/project_recipes_app_ts.git
-     cd project_recipes_app
+```bash
+git clone git@github.com:FabioRodriguesT/project_recipes_app.git
+cd project_recipes_app
+```
 
-    Instale as dependências:
+Instale as dependências:
 
-     npm install
+```bash
+npm install
+```
 
 Utilizando a API:
 
