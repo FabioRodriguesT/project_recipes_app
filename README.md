@@ -56,6 +56,7 @@ Esta abordagem fornece informações claras sobre os endpoints consumidos, facil
 Foi desenvolvido, um projeto que simula um aplicatio de receitas, onde é possivel visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas de comidas e bebidas.
 
 O layout do app foi feito de acordo com o link do figma abaixo.
+
 Figma: https://www.figma.com/design/nfmbY2U28bs1GnW3wysCzA/-Projeto--Frontend--Recipes-App---Personal-Project?node-id=0-1&p=f&t=BCmGh5WMZNysf0oM-0
 No app foram criadas 6 telas, são elas: 
 
