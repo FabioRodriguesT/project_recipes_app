@@ -78,66 +78,22 @@ Para a configuração do projeto, siga os seguintes passos:
     Clone o Repositório:
 
      git clone git@github.com:FabioRodriguesT/project_recipes_app_ts.git
-     cd project_recipes_app_ts
+     cd project_recipes_app
 
     Instale as dependências:
 
      npm install
 
-    Configure seu banco de dados com as migrações e modelos necessários:
-
-     npm run prestart
-
 Utilizando a API:
 
-Você pode executar a API utilizando npm ou Docker.
+Você pode executar a API utilizando npm.
 Utilizando npm
 
 Para executar a API, use o seguinte comando:
 
-npm run dev
+npm run start
 
 Você pode então acessar a API em http://localhost:3000 (ou utilizando sua porta específica).
-Utilizando o Docker
-
-    Construa e execute os contêineres do Docker:
-
-   docker-compose up -d
-
-    Acesse a API: Você pode acessar a API no caminho http://localhost:3000 (ou utilizando sua porta específica).
-
-    Acesse o container usando:
-
-docker exec -it blogs_api bash
-
-Instruções de utilização do projeto:
-
-    ⚠️ A maioria das rotas necessitam de um token gerado pela rota POST de /login para authenticação.
-
-Gerando seu token:
-
-Ao fazer uma requisição para a rota POST /login, com email e senha, será gerado um token para você. Exemplo:
-
-{
- "email": "seuemail@exemplo.com",
- "password": "suasenha"
-}
-
-Ao realizar um login correto (como o exemplo), na rota, será retornado um token. Exemplo:
-
- {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjo1LCJkaXNwbGF5TmFtZSI6InVzdWFyaW8gZGUgdGVzdGUiLCJlbWFpbCI6InRlc3RlQGVtYWlsLmNvbSIsImltYWdlIjoibnVsbCJ9LCJpYXQiOjE2MjAyNDQxODcsImV4cCI6MTYyMDY3NjE4N30.Roc4byj6mYakYqd9LTCozU1hd9k_Vw5I WKGL4hcCVG8"
- }
-
-Utilizando o token:
-
-Com o seu token gerado, antes de fazer a requisição para qualquer rota, você deve utilizá-lo no header de sua requisição.
-
-Crie uma variavel em sua rota chamanda de "Authorization".
-
-Adicione o valor do seu token gerado na sua variavel Authorization, no formato de Bearer seu Token.
-
-  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjo1LCJkaXNwbGF5TmFtZSI6InVzdWFyaW8gZGUgdGVzdGUiLCJlbWFpbCI6InRlc3RlQGVtYWlsLmNvbSIsImltYWdlIjoibnVsbCJ9LCJpYXQiOjE2MjAyNDQxODcsImV4cCI6MTYyMDY3NjE4N30.Roc4byj6mYakYqd9LTCozU1hd9k_Vw5IWKGL4hcCVG8
 
 Assim, você está authenticado, permitindo a realização de requisições para todos os endpoints!
 Rotas disponíveis:
