@@ -88,7 +88,7 @@ Instale as dependências:
 npm install
 ```
 
-### Utilizando a API:
+### 🌐 Utilizando a API:
 
 Você pode executar a API utilizando npm.
 Utilizando npm
@@ -101,7 +101,7 @@ npm run start
 
 Você pode então acessar a API em http://localhost:3000 (ou utilizando sua porta específica).
 
-### 🧭 Rotas disponíveis:
+### 🗺️ Rotas disponíveis:
 
 | Rota                         | Funcionalidade                                               |
 |:----------------------------:|:-----------------------------------------------------------:|
@@ -140,7 +140,7 @@ Isso criará um relatório detalhado em HTML, que pode ser visualizado no navega
 
 ## 📦 Dependências
 
-###  Dependencias:
+### 🎛️ Dependencias:
 
 - date-fns
 - mocha
@@ -150,7 +150,7 @@ Isso criará um relatório detalhado em HTML, que pode ser visualizado no navega
 - react-router-dom
 - styled-components
 
-### Depêndencias de Desenvolvimento:
+### 🔬 Depêndencias de Desenvolvimento:
 
 - eslint
 - eslint-plugin-react-hooks
