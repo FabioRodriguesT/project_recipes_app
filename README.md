@@ -33,7 +33,7 @@ Este projeto consome duas APIs externas para obter dados de refeições e coquet
 
 ### 🛠️ Como utilizar
 
-1. Substitua `{nome}` ou `{id}` pelos parâmetros desejados.
+1. Substitua `{nome}`, `{ingredient}`, `{firstLetter}`, `{category}` ou `{id}` pelos parâmetros desejados.
 2. Faça uma requisição GET para o endpoint correspondente.
 3. Utilize os dados retornados para exibir as informações na interface do usuário.:contentReference[oaicite:23]{index=23}
 
