@@ -10,7 +10,7 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 - [Sobre o projeto](#-sobre-o-projeto)
 - [Instalação](#-instalação)
 - [Utilizando a API](#-utilizando-a-api)
-- [Rotas disponíveis](#-rotas-disponíveis)
+- [Rotas disponíveis](#%EF%B8%8F-rotas-dispon%C3%ADveis)
 - [Dependências](#-dependências)
 - [Licença](#-licença)
 
