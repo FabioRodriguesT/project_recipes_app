@@ -4,7 +4,7 @@
 O projeto consiste em desenvolver um sistema que permite visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. A base de dados serão 2 APIs distintas, uma para comidas e outra para bebidas.
 O layout tem como foco dispositivos móveis, então todos os protótipos vão estar desenvolvidos em telas menores.
 
-## 🧠 API Consumida
+## 🧩 API Consumida
 
 Este projeto consome duas APIs externas para obter dados de refeições e coquetéis:
 
@@ -31,13 +31,13 @@ Este projeto consome duas APIs externas para obter dados de refeições e coquet
 - `https://www.thecocktaildb.com/api/json/v1/1/filter.php?c={category}`: Filtre os coquetéis pela categoria.
 - `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i={id}`: Obtém detalhes de um coquetel pelo ID.
 
-### Como utilizar
+### 🛠️ Como utilizar
 
 1. Substitua `{nome}`, `{ingredient}`, `{firstLetter}`, `{category}` ou `{id}` pelos parâmetros desejados.
 2. Faça uma requisição GET para o endpoint correspondente.
 3. Utilize os dados retornados para exibir as informações na interface do usuário.
 
-### Observações
+### 📝 Observações
 
 - As respostas das APIs são em formato JSON.
 - Não é necessário autenticação para utilizar os endpoints mencionados.
@@ -49,9 +49,9 @@ Para mais detalhes sobre os endpoints e parâmetros disponíveis, consulte a doc
 
 Esta abordagem fornece informações claras sobre os endpoints consumidos, facilitando a compreensão e utilização do projeto por outros desenvolvedores.
 
-## Sobre o projeto:
+## 📋 Sobre o projeto:
 
-### O que foi desenvolvido:
+### ⚙️ O que foi desenvolvido:
 
 Foi desenvolvido, um projeto que simula um aplicatio de receitas, onde é possivel visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas de comidas e bebidas.
 
@@ -72,7 +72,7 @@ As telas de "Meals In Progress e Drinks In Progress" permitem ao usuário acompa
 
 O aplicativo consome as APIs públicas do TheMealDB e TheCocktailDB para obter dados de receitas e drinks.
 
-## Instalação:
+## 🔌 Instalação:
 Para a configuração do projeto, siga os seguintes passos:
 
 Clone o Repositório:
@@ -101,7 +101,7 @@ npm run start
 
 Você pode então acessar a API em http://localhost:3000 (ou utilizando sua porta específica).
 
-### Rotas disponíveis:
+### 🧭 Rotas disponíveis:
 
 | Rota                         | Funcionalidade                                               |
 |:----------------------------:|:-----------------------------------------------------------:|
@@ -138,9 +138,9 @@ npm run coverage
 
 Isso criará um relatório detalhado em HTML, que pode ser visualizado no navegador.
 
-## Dependências
+## 📦 Dependências
 
-### Dependencias:
+###  Dependencias:
 
 - date-fns
 - mocha
