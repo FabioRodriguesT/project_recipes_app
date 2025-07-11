@@ -12,7 +12,7 @@ O layout tem como foco dispositivos móveis, então todos os protótipos vão es
 - [Utilizando a API](#Utilizando-a-API)
 - [Rotas disponíveis](#Rotas-disponíveis)
 - [Dependências](#Dependências)
-- [Licença](#🗝-Licença)
+- [Licença](#licença)
 
 
 ## 🧩 API Consumida
