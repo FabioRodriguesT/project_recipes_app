@@ -144,7 +144,7 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 - @types/react-router-dom
 - typescript
 - vite
-- @vitejs/plugin-react    # ou @vitejs/plugin-react-swc
+- @vitejs/plugin-react
 - vitest
 - vitest-coverage-v8
 - cypress
