@@ -8,10 +8,7 @@
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview",
     "test": "vitest",
-    "coverage": "vitest run --coverage --watch=false",
-    "cy-coverage": "cross-env NODE_OPTIONS=- vitest run --coverage --watch=false",
-    "cy:open": "cypress open --e2e --browser chrome",
-    "cy": "env CY_CLI=true cypress run",
+    "coverage": "vitest run --coverage --watch=false",   
     "start": "vite --open --port 3000"
   },
   "dependencies": {
