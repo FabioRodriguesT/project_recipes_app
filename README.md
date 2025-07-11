@@ -116,30 +116,32 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 | `/meals/{id}/in-progress`    | Exibe o progresso de uma receita de comida pelo **ID**      |
 | `/drinks/{id}/in-progress`   | Exibe o progresso de uma receita de bebida pelo **ID**      |
 
+## Teste
+
 ## Dependências
 
 ### Dependencias:
 
-    camelcase
-    http-status-codes
-    jsonwebtoken
-    puppeteer
-    uuid
+- camelcase
+- http-status-codes
+- jsonwebtoken
+- puppeteer
+- uuid
 
 ### Depêndencias de Desenvolvimento:
 
-    jest-dom
-    react
-    user-event
-    axios
-    jest
-    mocha
-    mysql2
-    nyc
-    sequelize
-    sequelize-cli
+- jest-dom
+- react
+- user-event
+- axios
+- jest
+- mocha
+- mysql2
+- nyc
+- sequelize
+- sequelize-cli
 
 Licença:
 
 Este projeto é licenciado sob a Licença MIT. Boa codificação!
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
