@@ -116,8 +116,9 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 | `/meals/{id}/in-progress`    | Exibe o progresso de uma receita de comida pelo **ID**      |
 | `/drinks/{id}/in-progress`   | Exibe o progresso de uma receita de bebida pelo **ID**      |
 
-Dependências
-Dependencias:
+## Dependências
+
+### Dependencias:
 
     camelcase
     http-status-codes
@@ -125,7 +126,7 @@ Dependencias:
     puppeteer
     uuid
 
-Depêndencias de Desenvolvimento:
+### Depêndencias de Desenvolvimento:
 
     jest-dom
     react
