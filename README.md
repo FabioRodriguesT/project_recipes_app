@@ -61,9 +61,9 @@ Figma: https://www.figma.com/design/nfmbY2U28bs1GnW3wysCzA/-Projeto--Frontend--R
 
 No app foram criadas 6 telas, são elas: 
 
-| Login | Done Recipes | Favorite Recipes |
-|:-----:|:------------:|------------:|
-| <img src="src/assets/image/LoginPage.PNG" alt="Login" style="width:180px"> | <img src="src/assets/image/DoneRecipesPage.PNG" alt="DoneRecipes" style="width:180px"> | <img src="src/assets/image/FavoriteRecipesPage.PNG" alt="FavoriteRecipes" style="width:180px"> |
+| Login | Done Recipes | Favorite Recipes | Perfil | Meals | Drinks | Meals Details | Drinks Details | Meals In Progress | Drinks In Progress
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| <img src="src/assets/image/LoginPage.PNG" alt="Login" style="width:180px"> | <img src="src/assets/image/DoneRecipesPage.PNG" alt="DoneRecipes" style="width:180px"> | <img src="src/assets/image/FavoriteRecipesPage.PNG" alt="FavoriteRecipes" style="width:180px"> | <img src="src/assets/image/ProfilePage.PNG" alt="Profile" style="width:180px"> | <img src="src/assets/image/MealsPage.PNG" alt="Meals" style="width:180px"> | <img src="src/assets/image/DrinksPage.PNG" alt="Drinks" style="width:180px"> | <img src="src/assets/image/FoodDetailsPage.PNG" alt="MealsDetails" style="width:180px"> | <img src="src/assets/image/DrinksDetailsPage.PNG" alt="DrinksDetails" style="width:180px"> | <img src="src/assets/image/MealsRecipeInProgressPage.PNG" alt="MealsRecipeInProgress" style="width:180px"> | <img src="src/assets/image/DrinksRecipeInProgressPage.PNG" alt="DrinksInProgress" style="width:180px">
 
 
 
