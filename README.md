@@ -49,9 +49,9 @@ Para mais detalhes sobre os endpoints e parâmetros disponíveis, consulte a doc
 
 Esta abordagem fornece informações claras sobre os endpoints consumidos, facilitando a compreensão e utilização do projeto por outros desenvolvedores.
 
-Sobre o projeto:
+## Sobre o projeto:
 
-O que foi desenvolvido:
+### O que foi desenvolvido:
 
 Foi desenvolvido, um projeto que simula um aplicatio de receitas, onde é possivel visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks.
 
