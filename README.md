@@ -60,7 +60,7 @@ Figma: https://www.figma.com/design/nfmbY2U28bs1GnW3wysCzA/-Projeto--Frontend--R
 No app foram criadas 6 telas, são elas: 
 
 | Login | Cabeçalho 2 | Cabeçalho 3 |
-| ![Login](src/assets/image/LoginPage)    |             |             |
+| ![Login](src/assets/image/LoginPage.png)    |             |             |
 
 
 
