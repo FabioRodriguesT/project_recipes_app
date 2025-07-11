@@ -122,24 +122,42 @@ Você pode então acessar a API em http://localhost:3000 (ou utilizando sua port
 
 ### Dependencias:
 
-- camelcase
-- http-status-codes
-- jsonwebtoken
-- puppeteer
-- uuid
+- date-fns
+- mocha
+- react
+- react-dom
+- react-google-fonts
+- react-router-dom
+- styled-components
 
 ### Depêndencias de Desenvolvimento:
 
-- jest-dom
-- react
-- user-event
-- axios
+- eslint/js
+- testing-library/dom
+- testing-library/jest-dom
+- testing-library/react
+- testing-library/user-event
+- types/jest
+- types/react-dom
+- types/react-router-dom
+- vitejs/plugin-react
+- vitejs/plugin-react-swc
+- vitest/coverage-v8
+- cross-env
+- cypress
+- cypress-multi-reporters
+- eslint
+- eslint-plugin-react-hooks
+- eslint-plugin-react-refresh
+- globals
 - jest
-- mocha
-- mysql2
-- nyc
-- sequelize
-- sequelize-cli
+- jsdom
+- stylelint
+- stylelint-order
+- typescript
+- vite
+- vite-plugin-svgr
+- vitest
 
 Licença:
 
